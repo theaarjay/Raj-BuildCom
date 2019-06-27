@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=2.0">
+	<link rel="stylesheet" type="css" href="css/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Cinzel+Decorative|Orbitron|Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+	<header>
+	<div class="head">
+		<img src="image/home.jpg" ></div>
+		<div class="menubar">
+		<ul>
+         <li><a href="properties.html">Properties</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+         <li><a href="home.html">Raj BuildCom</a></li>
+         <li><a href="About us.html">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+	</header>
+<body>
+
+	<div class="form">
+		<form>
+         <label>First Name:
+         <input type="text" name="firstName">
+         </label>
+
+         <p><label for="lastName">Last Name:</label>
+         <input id="lastName" type="text" name="lastName"></p>
+         <label for="yourMessage">Your Message:</label>
+         <p><textarea id="yourMessage" name="YourMessage"></textarea></p>
+
+         <input type="submit" value="Submit">
+
+      </form>
+	 </div>
+
+	<div class="detail">
+		<h1>
+			Get in Touch
+		</h1>
+		<h2>Registered Office</h2>
+		<p>1st Floor Sitaram Complex, East Gurhatta Chowk, Sikenderpur Road, Bhagalpur, Bihar, 812005.</p>
+		<h2>Email</h2>
+		<p>rajeshpansari00@gmail.com</p>
+		<h2>Phone</h2>
+		<p>8541011873</p>
+		<p>9470069685</p>
+	</div>
+
+
+
+	<h2> Location</h2>
+
+<div id="googleMap" style="width:100%;height:300px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(25.2356772,86.9744158),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbQT4wClNrzaYY-AgpYpWXiJeLIomBh4o&callback=myMap"></script>
+
+	
+	 <footer class="copy">
+	  	<p>Copyrights &copy 2019 Raj BuildCom. All Rights Reserved.</p>
+	  </footer>
+
+</body>
+</html>

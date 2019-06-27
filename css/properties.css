@@ -1,0 +1,162 @@
+*{
+	margin; 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Audiowide', cursive;
+	size: 30px;
+}
+.head {
+	position: relative;
+	text-align: center;
+}
+
+.menubar{
+	margin: auto;
+	margin-top: 20%;
+	position: absolute;
+	text-align: center;
+    bottom: 600px;
+    left: -230px;
+    word-spacing: 150px;
+
+}
+.menubar ul {
+	list-style-type: none;
+
+}
+.menubar ul li {
+	
+	display: inline-block;	
+}
+.menubar ul li a {
+	text-decoration: none;
+	color: #ffff;
+	display: block;
+	width: 100px;
+	font-size: 20px;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+
+}
+.menubar a:hover {
+    font-size: 22px;
+}
+
+img {
+	width: 100%;
+
+}
+
+.h2 {
+
+	margin-left: 50px;
+	margin-right: 1020px;
+	border-bottom: 2px solid grey;
+
+}
+
+.list {
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: grid;
+	grid-template-columns: repeat(2,320px);
+	grid-gap: 5vh 24vw;
+	max-width: 1200px;
+	
+}
+.image4 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}
+.image5 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}.image6 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}.image7 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}.image8 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}.image9 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}.image10 a:hover {
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}
+.name4 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 360px;
+}
+
+.name5 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 360px;
+}
+
+.name6 {
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 360px;
+}
+
+.name7 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 360px;
+}
+
+.name8 {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 360px;
+}
+
+.name9 {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 360px;
+}
+
+.name10 {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 360px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.copy {
+	border-top: 1px solid grey;
+	margin top: 5px;
+	padding: 0px;
+
+}
+
+.copy p {
+	font-family: arial;
+	text-align: center;
+	color: grey;
+}

@@ -1,0 +1,98 @@
+*{
+	margin; 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Audiowide', cursive;
+	size: 30px;
+}
+.head {
+	position: relative;
+	text-align: center;
+}
+
+.menubar{
+	margin: auto;
+	margin-top: 20%;
+	position: absolute;
+	text-align: center;
+    bottom: 600px;
+    left: -230px;
+    word-spacing: 150px;
+
+}
+.menubar ul {
+	list-style-type: none;
+
+}
+.menubar ul li {
+	
+	display: inline-block;	
+}
+.menubar ul li a {
+	text-decoration: none;
+	color: #ffff;
+	display: block;
+	width: 100px;
+	font-size: 20px;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+}
+
+img {
+	width: 100%;
+
+}
+.menubar a:hover {
+    font-size: 22px;
+}
+.company {
+	margin-left: 40px;
+}
+.company h1 {
+	border-bottom: 1px solid grey;
+	margin-right: 1000px;
+}
+.company p {
+	font-family: arial;
+	font-size: 17px;
+	margin-right: 200px;
+	margin-left: 150px;
+}
+.border p {
+	border-bottom: 1px solid grey;
+	margin-right: 0px;
+}
+
+.about{
+
+	padding-top: 50px;
+}
+.about h1 {
+	border-bottom: 1px solid grey;
+	margin-right: 1050px;
+}
+.about p {
+	margin-right: 450px
+}
+.founder img {
+	height: 250px;
+	width: 210px;
+	border: 2px solid black;
+	position: absolute;
+	margin-left: 900px;
+	margin-top: -25px;
+}
+
+
+.copy {
+	border-top: 1px solid grey;
+	margin: 0;
+	padding: 0px;
+
+}
+
+.copy p {
+	font-family: arial;
+	text-align: center;
+	color: grey;
+}
